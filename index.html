@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>THE FORM</title>
+</head>
+<body>
+    <header>
+        <h1>FILL THE FORM BELOW</h1>
+    </header>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+       <div>
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" placeholder="Name" />
+    </div>
+
+    <div>
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" placeholder="Name" />
+    </div>
+
+    <div>
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="example@gmail.com"required />
+    </div>
+
+    <div>
+        <label for="DOB">Date of Birth</label>
+        <input type="date" id="DOB" />
+    </div>
+</fieldset>
+<fieldset>
+    <legend>Other Information</legend>
+    <div>
+        <label>Gender</label>
+        <input type="radio" id="male" name="gender"/>
+        <label for="male" style="display: inline;">Male</label>
+        <input type="radio" id="female" name="gender"/>
+        <label for="female" style="display: inline;">Female</label>
+    </div>
+
+    <div>
+        <label for="pass">Password</label>
+        <input type="text" id="pass" placeholder="Password"/> 
+    </div>
+
+    <p>In not less than 100 words explain why you need a loan</p>
+    <textarea cols="40" rows="10">Lorem ipsum</textarea>
+</fieldset>
+    <input type="submit" value="CLICK HERE"/>
+    </form>
+    
+</body>
+</html>
