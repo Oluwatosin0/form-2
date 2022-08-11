@@ -1,0 +1,14 @@
+label{
+    display: block;
+}
+div , input{
+    margin: 5px 0 5px 0;
+}
+input[type=submit]{
+    display: block;
+    padding: 3px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
